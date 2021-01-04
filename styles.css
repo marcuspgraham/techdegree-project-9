@@ -1,0 +1,136 @@
+
+
+/* font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+ITC Avant Garde Gothic Pro Book
+
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+ITC Avant Garde Gothic Pro Medium
+
+font-family: itc-avant-garde-gothic-pro, sans-serif;
+font-weight: 500;
+font-style: normal; */
+
+body {
+    background-color: #fffc52;
+}
+
+.navbar-brand {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-item {
+    font-family: itc-avant-garde-gothic-pro, sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+#facebook,
+#twitter,
+#instagram {
+    padding-left: 20px;
+}
+
+
+h1 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8rem;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    color: #000;
+}
+
+h3 {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    padding-bottom: 100px;
+    color: #000;
+}
+
+.card-body {
+    background-color: #fffc52;
+}
+
+p {
+    font-family: itc-avant-garde-gothic-pro, sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem; 
+}
+
+img {
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+
+svg {
+    float: right;
+    margin-left: 15px;
+}
+
+/* ================================= 
+  Image Effects
+==================================== */
+
+.contain {
+    position: relative;
+  }
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contain:hover .image {
+    opacity: 0.3;
+  }
+  
+  .contain:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;  
+    color: black;
+    padding: 5px;
+  }
+
+
