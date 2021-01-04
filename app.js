@@ -1,8 +1,7 @@
 const modalWrap = document.querySelector("model-wrap");
 const modalContent = document.querySelector(".modal-content");
 const modalBtn = document.querySelector(".modal-btn");
-const cancel = document.querySelector(".cancel");
-const phoneNumber = document.querySelector(".phone-number");
+
 
 modalBtn.addEventListener("click", () => {
     modalContent.classList.remove("slide-out");
@@ -16,3 +15,4 @@ cancel.addEventListener("click", () => {
         modalWrap.classList.toggle("display-none");
     }, 650)
 });
+
