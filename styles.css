@@ -40,10 +40,8 @@ body {
     color: #000;
 }
 
-#facebook,
-#twitter,
-#instagram {
-    padding-left: 20px;
+.navbar-toggler {
+  margin-bottom: 3px;
 }
 
 
@@ -99,6 +97,9 @@ h3 {
     background-color: #fffc52;
 }
 
+.brief {
+  padding-bottom: 10px;
+}
 
 p {
     font-family: itc-avant-garde-gothic-pro, sans-serif; 
@@ -117,6 +118,7 @@ img {
 svg {
     float: right;
     margin-left: 15px;
+    color: #000;
 }
 
 /* ================================= 
@@ -165,3 +167,80 @@ svg {
   }
 
 
+/* ================================= 
+  Footer
+==================================== */
+
+
+footer {
+  background: #000;
+  padding: 90px 0;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.footer-name {
+  text-align: center;
+  color: #f1a638;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.left-col {
+  margin: auto;
+}
+
+.social-media {
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  color: #fffc52;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3 linear;
+}
+
+.social-media a:hover {
+  color: #f1a638;
+}
+
+.email {
+  text-decoration: none;
+  color: #f1a638;
+  font-weight: 500;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.email:hover {
+  color: #fffc52;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 576px) {
+   
+  .text {
+    padding-bottom: 120px;
+  }
+  
+  }

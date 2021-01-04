@@ -1,6 +1,7 @@
-const modalWrap = document.querySelector("model-wrap");
+const modalWrap = document.querySelector(".modal-wrap");
 const modalContent = document.querySelector(".modal-content");
 const modalBtn = document.querySelector(".modal-btn");
+const cancel = document.querySelector(".accept");
 
 
 modalBtn.addEventListener("click", () => {
