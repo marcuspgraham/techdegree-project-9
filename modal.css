@@ -60,10 +60,15 @@ button:hover {
 }
 
 .modal-wrap {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, .8);
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .modal {
@@ -74,7 +79,7 @@ button:hover {
 }
 
 .modal-content {
-    width: 700px;
+    width: 800px;
     padding: 50px;
     background-color: white;
     display: flex;
@@ -93,9 +98,6 @@ button:hover {
     align-items: center;
 }
 
-.info {
-    line-height: 25px;
-}
 
 h2 {
     margin-top: 24px;
@@ -106,6 +108,7 @@ h2 {
 .info {
     font-size: 14px;
     margin-top: 12px;
+    line-height: 25px;
     text-align: center;
 }
 

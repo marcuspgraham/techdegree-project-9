@@ -49,7 +49,7 @@ h1 {
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 8rem;
+    font-size: 7rem;
     padding-bottom: 50px;
     padding-top: 50px;
     color: #000;
@@ -243,4 +243,28 @@ footer {
     padding-bottom: 120px;
   }
   
+}
+
+@media (min-width: 768px) {
+   
+  .text {
+    padding-top: 90px;
   }
+  
+}
+
+@media (min-width: 992px) {
+   
+  .text {
+    padding-top: 90px;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+   
+  .text {
+    padding-top: 200px;
+  }
+  
+}
