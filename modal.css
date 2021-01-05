@@ -35,7 +35,6 @@ body {
 .modal-button {
     height: 100%;
     display: flex;
-    align-items: left;
     margin-bottom: 100px;
 }
 
@@ -79,11 +78,15 @@ button:hover {
 }
 
 .modal-content {
-    width: 800px;
-    padding: 50px;
-    background-color: white;
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    width: 500px;
+    padding: 30px;
+    background-color: #fffc52;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
+    border: none;
     border-radius: 16px;
 }
 
@@ -141,3 +144,16 @@ h2 {
     border-color: transparent;
     color: white;
 }
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+   
+    .modal-content {
+        max-height: calc(200vh);
+        overflow-y: auto;
+    }
+    
+  }
